@@ -1,5 +1,5 @@
 stages:
- - template: install.yaml@templates
+ - template: job-fmt.yaml@templates
 
 resources:
   repositories:
