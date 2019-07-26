@@ -1,5 +1,7 @@
-stages:
- - template: job-fmt.yaml@templates
+jobs:
+- template: job-fmt.yaml@templates
+  parameters:
+    name: rustfmt
 
 resources:
   repositories:
