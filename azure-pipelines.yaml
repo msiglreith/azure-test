@@ -1,4 +1,7 @@
 jobs:
+- template: job-check.yaml@templates
+  parameters:
+    name: cargo check
 - template: job-fmt.yaml@templates
   parameters:
     name: rustfmt
