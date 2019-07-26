@@ -5,5 +5,5 @@ resources:
   repositories:
     - repository: templates
       type: github
-      name: norse-ci/azure-ci
+      name: norse-rs/azure-ci
       endpoint: msiglreith
