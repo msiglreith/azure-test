@@ -1,11 +1,9 @@
 stages:
- - stage: lint
-   displayName: Lint
+ - stage: Lint
    jobs:
      - template: job-fmt.yaml@templates
      - template: job-clippy.yaml@templates
  - stage: Test
-   displayName: Test
    jobs:
      - template: job-test.yaml@templates
 
